@@ -1,3 +1,4 @@
+/*
 terraform {
   required_providers {
     aws = {
@@ -6,10 +7,7 @@ terraform {
     }
   }
 }
-
+*/
 # Configure the AWS Provider
 provider "aws" {
-  region                  = "ap-south-1"
-  shared_credentials_file = "C:/Users/z004f2ry/.aws/creds"
-  profile                 = "my-personal-aws"
 }
